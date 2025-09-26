@@ -50,7 +50,7 @@ void ajouterstudent(student students[], int *nb) {
 
 void afficherstudents(student students[], int nb) {
     if (nb == 0) {
-        printf(".\n");
+        printf(" we dont have any student yet !!\n");
         return;
     }
 
